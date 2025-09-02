@@ -28,10 +28,9 @@
 
 # About
 
-* Info about the label
+* Label bio
 * "Support the label" donation links
 * Contact info
-* 
 
 
 
@@ -48,5 +47,6 @@
 
 
 
-# Podcast
+
+
 
