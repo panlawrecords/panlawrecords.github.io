@@ -1,0 +1,20 @@
+<h2>Support the Artist</h2>
+<ul>
+  {% for link in page.support_artist %}
+    <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+  {% endfor %}
+</ul>
+
+<h2>Support the Label</h2>
+<ul>
+  {% for link in page.support_label %}
+    <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+  {% endfor %}
+</ul>
+
+<h2>External Links</h2>
+<ul>
+  {% for link in page.external_links %}
+    <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+  {% endfor %}
+</ul>
