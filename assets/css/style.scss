@@ -1,0 +1,30 @@
+---
+---
+@import "{{ site.theme }}";
+
+/* Navigation Bar */
+nav {
+  margin: 1rem 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem; /* space between links */
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff; /* matches Hacker theme text color */
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
