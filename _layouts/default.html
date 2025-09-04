@@ -20,15 +20,25 @@
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
         
         <!-- 🔹 Navigation Menu -->
-        <nav>
-          <ul>
-            <li><a href="{{ '/' | relative_url }}">Home</a></li>
-            <li><a href="{{ '/artists/' | relative_url }}">Artists</a></li>
-            <li><a href="{{ '/releases/' | relative_url }}">Releases</a></li>
-            <li><a href="{{ '/news/' | relative_url }}">News</a></li>
-            <li><a href="{{ '/about/' | relative_url }}">About</a></li>
-          </ul>
-        </nav>
+<nav>
+  <ul>
+    <li class="{% if page.url == '/' %}active{% endif %}">
+      <a href="{{ '/' | relative_url }}">Home</a>
+    </li>
+    <li class="{% if page.url contains '/artists/' %}active{% endif %}">
+      <a href="{{ '/artists/' | relative_url }}">Artists</a>
+    </li>
+    <li class="{% if page.url contains '/releases/' %}active{% endif %}">
+      <a href="{{ '/releases/' | relative_url }}">Releases</a>
+    </li>
+    <li class="{% if page.url contains '/news/' %}active{% endif %}">
+      <a href="{{ '/news/' | relative_url }}">News</a>
+    </li>
+    <li class="{% if page.url contains '/about/' %}active{% endif %}">
+      <a href="{{ '/about/' | relative_url }}">About</a>
+    </li>
+  </ul>
+</nav>
         <!-- 🔹 End Navigation -->
         
         <section id="downloads">
