@@ -28,3 +28,9 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+
+/* Active nav link styling */
+nav li.active a {
+  color: #00ff66; /* bright green highlight (pick your brand color) */
+  text-decoration: underline;
+}
