@@ -1,0 +1,11 @@
+# Ignore Jekyll build output
+_site/
+
+# Ignore caches
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ignore system/editor junk
+.DS_Store
+Thumbs.db
