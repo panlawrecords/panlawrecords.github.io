@@ -8,4 +8,7 @@ collections:
   releases:
     output: true
     permalink: /releases/:name/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
