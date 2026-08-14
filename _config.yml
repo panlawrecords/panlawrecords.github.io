@@ -1,0 +1,14 @@
+title: Pan Law Records
+description: The Sound of Paducah
+theme: jekyll-theme-hacker
+collections:
+  artists:
+    output: true
+    permalink: /artists/:name/
+  releases:
+    output: true
+    permalink: /releases/:name/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
